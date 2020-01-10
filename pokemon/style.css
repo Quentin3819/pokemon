@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "Pokemon Hollow";
+    src: url("PokemonHollow.ttf");
+}
+
+*{
+    margin: 0%;
+}
+html{
+    background-image: url("pokemon3.jpg");
+}
+
+body{
+    color: rgb(177, 174, 174);
+    font-family: "Pokemon Hollow" ;
+    font-weight: 100;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.divlist{
+    display: flex;
+    justify-content: space-around;
+}
+
+.voirfiche {
+    text-align: right;
+    margin: 0%;
+}
+
+#double{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#liste{
+    border: rgba(255, 255, 255, 0.774) solid;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 600px;
+    margin: 15px;
+}
+
+#double {
+    display: flex;
+}
+
+#infos{
+    border: rgba(255, 255, 255, 0.774) solid;
+    background-color: rgba(0, 0, 0, 0.603);
+    margin: 15px;
+    width: 600px;
+    text-align: center;
+}
+
+#infos h3 {
+    margin-top: 20px;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+}
